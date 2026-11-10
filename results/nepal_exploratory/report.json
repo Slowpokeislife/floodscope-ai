@@ -1,0 +1,51 @@
+{
+  "status": "EXPLORATORY_ONLY_NOT_VALIDATED",
+  "warning": "No ground truth for Nepal; no reliable flood area or population estimates.",
+  "nepal_input": "VV/VH PNG/255, composite from UNOSAT notebook; compatibility with training RGB NOT established",
+  "input_pipeline": "RGB [0,1] CHW (matches src/dataset.py format, not necessarily SAR semantics)",
+  "checkpoint": "checkpoints/v4_deeplab_best.pt",
+  "threshold_visualization_only": 0.45,
+  "checkpoint_model_size": 512,
+  "tiles": [
+    {
+      "tile": "tile_12_12.png",
+      "status": "ok",
+      "suspect_fraction": 0.22248458862304688,
+      "mean_probability_filtered": 0.8933027982711792,
+      "mean_probability_unfiltered": 0.8271392583847046,
+      "positive_fraction_filtered": 0.9766273498535156,
+      "positive_fraction_unfiltered": 0.8906936645507812,
+      "mean_abs_probability_change": 0.08412789553403854
+    },
+    {
+      "tile": "tile_26_22.png",
+      "status": "ok",
+      "suspect_fraction": 0.06619644165039062,
+      "mean_probability_filtered": 0.9481073021888733,
+      "mean_probability_unfiltered": 0.9161852598190308,
+      "positive_fraction_filtered": 0.9950714111328125,
+      "positive_fraction_unfiltered": 0.9775161743164062,
+      "mean_abs_probability_change": 0.036146484315395355
+    },
+    {
+      "tile": "tile_14_28.png",
+      "status": "ok",
+      "suspect_fraction": 0.05886077880859375,
+      "mean_probability_filtered": 0.9505705833435059,
+      "mean_probability_unfiltered": 0.922386884689331,
+      "positive_fraction_filtered": 0.9972953796386719,
+      "positive_fraction_unfiltered": 0.9877662658691406,
+      "mean_abs_probability_change": 0.03189533203840256
+    },
+    {
+      "tile": "tile_34_46.png",
+      "status": "ok",
+      "suspect_fraction": 0.028835296630859375,
+      "mean_probability_filtered": 0.9516211748123169,
+      "mean_probability_unfiltered": 0.9333020448684692,
+      "positive_fraction_filtered": 0.9956512451171875,
+      "positive_fraction_unfiltered": 0.986083984375,
+      "mean_abs_probability_change": 0.020314406603574753
+    }
+  ]
+}

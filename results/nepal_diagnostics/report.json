@@ -1,0 +1,37 @@
+{
+  "warning": "Diagnóstico visual/estadístico; NO demuestra compatibilidad SAR ni permite mapas de inundación fiables.",
+  "input_v4": "dataset.py: RGB uint8 -> float32 [0,1], CHW; sin ImageNet mean/std ni BGR.",
+  "nepal_composite": "R=VV con valores >0.7 reemplazados por 0, G=VH, B=clip(VV/VH,0,1); lectura PNG escalada /255; división segura.",
+  "suspect_pixels": "VV==255 OR VH==0 es regla exploratoria; NO es máscara no-data verificada.",
+  "training": {
+    "image_count": 446,
+    "mask_count": 446,
+    "sampled_rgb": 24,
+    "mask_unique_pixel_counts": {
+      "0": 106210619,
+      "255": 10705605
+    },
+    "mask_files_with_nonbinary_values": [],
+    "mask_nonbinary_file_count": 0
+  },
+  "nepal": {
+    "pairs": 2073,
+    "sampled_pairs": 80,
+    "mean_suspect_fraction_sample": 0.3578948497772217,
+    "all_suspect_tiles_in_sample": 20,
+    "valid_examples": 48,
+    "tile_index_bounds": {
+      "max_x": 60,
+      "max_y": 41
+    },
+    "baseline_maps": [
+      "baseline_maps/",
+      "baseline_maps/analysis_extent.png",
+      "baseline_maps/analysis_extent_sample.PNG",
+      "baseline_maps/permanent_water.png",
+      "baseline_maps/permanent_water_sample.PNG",
+      "baseline_maps/world_pop.png",
+      "baseline_maps/world_pop_sample.PNG"
+    ]
+  }
+}

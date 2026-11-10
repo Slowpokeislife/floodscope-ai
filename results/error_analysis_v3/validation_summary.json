@@ -1,0 +1,58 @@
+{
+  "checkpoint": "checkpoints/v3_tversky_best.pt",
+  "threshold": 0.6,
+  "split": "val",
+  "samples": 98,
+  "image_size": 512,
+  "global_pooled": {
+    "iou": 0.5711217413304772,
+    "dice": 0.7270241717192871,
+    "precision": 0.7262750758046105,
+    "recall": 0.7277748144970785,
+    "pixel_accuracy": 0.9388987872065326
+  },
+  "by_region": {
+    "India": {
+      "images": 68,
+      "pooled": {
+        "iou": 0.5021868938500721,
+        "dice": 0.6686077423601774,
+        "precision": 0.6911359276632297,
+        "recall": 0.6475018483670747,
+        "pixel_accuracy": 0.9331811456119307
+      },
+      "mean_image_dice": 0.3798680212570055,
+      "mean_ground_truth_flood_fraction": 0.10410151762120864,
+      "mean_predicted_flood_fraction": 0.09752918692196116,
+      "mean_rgb_channels_0to1": [
+        0.577,
+        0.41796,
+        0.55558
+      ]
+    },
+    "Spain": {
+      "images": 30,
+      "pooled": {
+        "iou": 0.7012663501514531,
+        "dice": 0.8244051263213709,
+        "precision": 0.7798827295478649,
+        "recall": 0.874318740777168,
+        "pixel_accuracy": 0.9518587748209623
+      },
+      "mean_image_dice": 0.5356018148833782,
+      "mean_ground_truth_flood_fraction": 0.1292546590169271,
+      "mean_predicted_flood_fraction": 0.14490610758463543,
+      "mean_rgb_channels_0to1": [
+        0.48911,
+        0.33605,
+        0.6022
+      ]
+    }
+  },
+  "warnings": [
+    "These are validation diagnostics; do not use test samples for model selection.",
+    "RGB values are stored PNG channels; their physical SAR meaning is not established.",
+    "Dataset maps mask 255->flood and every other value->nonflood; original no-data semantics require verification.",
+    "Per-image Dice of empty truth and empty prediction is reported as zero by confusion-based formula; inspect prevalence alongside it."
+  ]
+}

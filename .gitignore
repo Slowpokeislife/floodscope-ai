@@ -1,0 +1,40 @@
+# Private/runtime artifacts
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.streamlit/secrets.toml
+.ipynb_checkpoints/
+# Training data, proprietary course files, and model weights
+data/*
+!data/README.md
+!data/.gitkeep
+checkpoints/*
+!checkpoints/README.md
+!checkpoints/.gitkeep
+*.pt
+*.pth
+*.ckpt
+*.engine
+*.onnx
+*.tif
+*.tiff
+# Local artifacts
+results/**/gallery/
+results/**/*.npz
+results/**/*.npy
+results/**/validation_per_image.csv
+results/**/sample_channel_stats.csv
+results/**/nepal_tile_stats.csv
+estructura.txt
+estructura*.txt
+.DS_Store
+Thumbs.db
+# Project-specific temporary scratch
+*.log

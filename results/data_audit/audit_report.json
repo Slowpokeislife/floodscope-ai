@@ -1,0 +1,2258 @@
+{
+  "flood": {
+    "status": "ok",
+    "path": "data\\flood_data.zip",
+    "size_bytes": 252845088,
+    "total_files": 1788,
+    "categories": {
+      "mask": 446,
+      "metadata": 896,
+      "training_image": 446
+    },
+    "top_level_names": [
+      "Sen1Floods11_Metadata.geojson",
+      "catalog",
+      "images",
+      "masks"
+    ],
+    "metadata_files": [
+      "Sen1Floods11_Metadata.geojson",
+      "catalog/catalog.json",
+      "catalog/sen1floods11_hand_labeled_label/Bolivia_103757_label/Bolivia_103757_label.json",
+      "catalog/sen1floods11_hand_labeled_label/Bolivia_129334_label/Bolivia_129334_label.json",
+      "catalog/sen1floods11_hand_labeled_label/Bolivia_195474_label/Bolivia_195474_label.json",
+      "catalog/sen1floods11_hand_labeled_label/Bolivia_23014_label/Bolivia_23014_label.json",
+      "catalog/sen1floods11_hand_labeled_label/Bolivia_233925_label/Bolivia_233925_label.json",
+      "catalog/sen1floods11_hand_labeled_label/Bolivia_242570_label/Bolivia_242570_label.json",
+      "catalog/sen1floods11_hand_labeled_label/Bolivia_290290_label/Bolivia_290290_label.json",
+      "catalog/sen1floods11_hand_labeled_label/Bolivia_294583_label/Bolivia_294583_label.json",
+      "catalog/sen1floods11_hand_labeled_label/Bolivia_312675_label/Bolivia_312675_label.json",
+      "catalog/sen1floods11_hand_labeled_label/Bolivia_314919_label/Bolivia_314919_label.json",
+      "catalog/sen1floods11_hand_labeled_label/Bolivia_360519_label/Bolivia_360519_label.json",
+      "catalog/sen1floods11_hand_labeled_label/Bolivia_379434_label/Bolivia_379434_label.json",
+      "catalog/sen1floods11_hand_labeled_label/Bolivia_432776_label/Bolivia_432776_label.json",
+      "catalog/sen1floods11_hand_labeled_label/Bolivia_60373_label/Bolivia_60373_label.json",
+      "catalog/sen1floods11_hand_labeled_label/Bolivia_76104_label/Bolivia_76104_label.json",
+      "catalog/sen1floods11_hand_labeled_label/Ghana_103272_label/Ghana_103272_label.json",
+      "catalog/sen1floods11_hand_labeled_label/Ghana_1033830_label/Ghana_1033830_label.json",
+      "catalog/sen1floods11_hand_labeled_label/Ghana_1078550_label/Ghana_1078550_label.json",
+      "catalog/sen1floods11_hand_labeled_label/Ghana_1089161_label/Ghana_1089161_label.json",
+      "catalog/sen1floods11_hand_labeled_label/Ghana_11745_label/Ghana_11745_label.json",
+      "catalog/sen1floods11_hand_labeled_label/Ghana_124834_label/Ghana_124834_label.json",
+      "catalog/sen1floods11_hand_labeled_label/Ghana_128663_label/Ghana_128663_label.json",
+      "catalog/sen1floods11_hand_labeled_label/Ghana_132163_label/Ghana_132163_label.json",
+      "catalog/sen1floods11_hand_labeled_label/Ghana_134751_label/Ghana_134751_label.json",
+      "catalog/sen1floods11_hand_labeled_label/Ghana_135389_label/Ghana_135389_label.json",
+      "catalog/sen1floods11_hand_labeled_label/Ghana_141271_label/Ghana_141271_label.json",
+      "catalog/sen1floods11_hand_labeled_label/Ghana_141910_label/Ghana_141910_label.json",
+      "catalog/sen1floods11_hand_labeled_label/Ghana_142312_label/Ghana_142312_label.json",
+      "catalog/sen1floods11_hand_labeled_label/Ghana_144050_label/Ghana_144050_label.json",
+      "catalog/sen1floods11_hand_labeled_label/Ghana_146222_label/Ghana_146222_label.json",
+      "catalog/sen1floods11_hand_labeled_label/Ghana_147015_label/Ghana_147015_label.json",
+      "catalog/sen1floods11_hand_labeled_label/Ghana_154838_label/Ghana_154838_label.json",
+      "catalog/sen1floods11_hand_labeled_label/Ghana_156478_label/Ghana_156478_label.json",
+      "catalog/sen1floods11_hand_labeled_label/Ghana_161233_label/Ghana_161233_label.json",
+      "catalog/sen1floods11_hand_labeled_label/Ghana_167233_label/Ghana_167233_label.json",
+      "catalog/sen1floods11_hand_labeled_label/Ghana_168875_label/Ghana_168875_label.json",
+      "catalog/sen1floods11_hand_labeled_label/Ghana_187318_label/Ghana_187318_label.json",
+      "catalog/sen1floods11_hand_labeled_label/Ghana_194723_label/Ghana_194723_label.json",
+      "catalog/sen1floods11_hand_labeled_label/Ghana_234935_label/Ghana_234935_label.json",
+      "catalog/sen1floods11_hand_labeled_label/Ghana_247288_label/Ghana_247288_label.json",
+      "catalog/sen1floods11_hand_labeled_label/Ghana_24858_label/Ghana_24858_label.json",
+      "catalog/sen1floods11_hand_labeled_label/Ghana_26376_label/Ghana_26376_label.json",
+      "catalog/sen1floods11_hand_labeled_label/Ghana_264787_label/Ghana_264787_label.json",
+      "catalog/sen1floods11_hand_labeled_label/Ghana_277_label/Ghana_277_label.json",
+      "catalog/sen1floods11_hand_labeled_label/Ghana_308249_label/Ghana_308249_label.json",
+      "catalog/sen1floods11_hand_labeled_label/Ghana_313799_label/Ghana_313799_label.json",
+      "catalog/sen1floods11_hand_labeled_label/Ghana_319168_label/Ghana_319168_label.json",
+      "catalog/sen1floods11_hand_labeled_label/Ghana_359826_label/Ghana_359826_label.json",
+      "catalog/sen1floods11_hand_labeled_label/Ghana_362274_label/Ghana_362274_label.json",
+      "catalog/sen1floods11_hand_labeled_label/Ghana_406026_label/Ghana_406026_label.json",
+      "catalog/sen1floods11_hand_labeled_label/Ghana_45911_label/Ghana_45911_label.json",
+      "catalog/sen1floods11_hand_labeled_label/Ghana_495107_label/Ghana_495107_label.json",
+      "catalog/sen1floods11_hand_labeled_label/Ghana_49890_label/Ghana_49890_label.json",
+      "catalog/sen1floods11_hand_labeled_label/Ghana_5079_label/Ghana_5079_label.json",
+      "catalog/sen1floods11_hand_labeled_label/Ghana_53713_label/Ghana_53713_label.json",
+      "catalog/sen1floods11_hand_labeled_label/Ghana_597288_label/Ghana_597288_label.json",
+      "catalog/sen1floods11_hand_labeled_label/Ghana_61925_label/Ghana_61925_label.json",
+      "catalog/sen1floods11_hand_labeled_label/Ghana_7496_label/Ghana_7496_label.json",
+      "catalog/sen1floods11_hand_labeled_label/Ghana_8090_label/Ghana_8090_label.json",
+      "catalog/sen1floods11_hand_labeled_label/Ghana_83200_label/Ghana_83200_label.json",
+      "catalog/sen1floods11_hand_labeled_label/Ghana_83483_label/Ghana_83483_label.json",
+      "catalog/sen1floods11_hand_labeled_label/Ghana_866994_label/Ghana_866994_label.json",
+      "catalog/sen1floods11_hand_labeled_label/Ghana_868803_label/Ghana_868803_label.json",
+      "catalog/sen1floods11_hand_labeled_label/Ghana_887131_label/Ghana_887131_label.json",
+      "catalog/sen1floods11_hand_labeled_label/Ghana_895194_label/Ghana_895194_label.json",
+      "catalog/sen1floods11_hand_labeled_label/Ghana_953791_label/Ghana_953791_label.json",
+      "catalog/sen1floods11_hand_labeled_label/Ghana_97059_label/Ghana_97059_label.json",
+      "catalog/sen1floods11_hand_labeled_label/Ghana_97516_label/Ghana_97516_label.json"
+    ],
+    "metadata_truncated": 826,
+    "sample_records": {
+      "training_image": [
+        {
+          "file": "images/all_images/Bolivia_103757.png",
+          "width": 512,
+          "height": 512,
+          "format": "PNG",
+          "mode": "RGB",
+          "shape": [
+            512,
+            512,
+            3
+          ],
+          "dtype": "uint8",
+          "channels": [
+            {
+              "channel": 0,
+              "min": 0.0,
+              "max": 244.0,
+              "mean": 190.66386032104492,
+              "std": 76.0379574346925,
+              "zero_fraction": 0.015651702880859375,
+              "nan_or_inf_count": 0,
+              "q01": 0.0,
+              "q50": 244.0,
+              "q99": 244.0
+            },
+            {
+              "channel": 1,
+              "min": 0.0,
+              "max": 202.0,
+              "mean": 154.3063735961914,
+              "std": 67.55443384147999,
+              "zero_fraction": 0.038303375244140625,
+              "nan_or_inf_count": 0,
+              "q01": 0.0,
+              "q50": 202.0,
+              "q99": 202.0
+            },
+            {
+              "channel": 2,
+              "min": 0.0,
+              "max": 255.0,
+              "mean": 65.45758056640625,
+              "std": 86.03865460697291,
+              "zero_fraction": 0.6123390197753906,
+              "nan_or_inf_count": 0,
+              "q01": 0.0,
+              "q50": 0.0,
+              "q99": 253.0
+            }
+          ]
+        },
+        {
+          "file": "images/all_images/Ghana_24858.png",
+          "width": 512,
+          "height": 512,
+          "format": "PNG",
+          "mode": "RGB",
+          "shape": [
+            512,
+            512,
+            3
+          ],
+          "dtype": "uint8",
+          "channels": [
+            {
+              "channel": 0,
+              "min": 12.0,
+              "max": 244.0,
+              "mean": 147.15633392333984,
+              "std": 20.095145418652635,
+              "zero_fraction": 0.0,
+              "nan_or_inf_count": 0,
+              "q01": 97.0,
+              "q50": 148.0,
+              "q99": 191.0
+            },
+            {
+              "channel": 1,
+              "min": 2.0,
+              "max": 195.0,
+              "mean": 112.17946243286133,
+              "std": 17.128966178745966,
+              "zero_fraction": 0.0,
+              "nan_or_inf_count": 0,
+              "q01": 69.0,
+              "q50": 113.0,
+              "q99": 149.0
+            },
+            {
+              "channel": 2,
+              "min": 51.0,
+              "max": 255.0,
+              "mean": 154.36639785766602,
+              "std": 36.11517975865936,
+              "zero_fraction": 0.0,
+              "nan_or_inf_count": 0,
+              "q01": 81.0,
+              "q50": 152.0,
+              "q99": 254.0
+            }
+          ]
+        },
+        {
+          "file": "images/all_images/India_177319.png",
+          "width": 512,
+          "height": 512,
+          "format": "PNG",
+          "mode": "RGB",
+          "shape": [
+            512,
+            512,
+            3
+          ],
+          "dtype": "uint8",
+          "channels": [
+            {
+              "channel": 0,
+              "min": 0.0,
+              "max": 244.0,
+              "mean": 162.20623016357422,
+              "std": 31.951990996510947,
+              "zero_fraction": 3.814697265625e-06,
+              "nan_or_inf_count": 0,
+              "q01": 85.0,
+              "q50": 162.0,
+              "q99": 239.0
+            },
+            {
+              "channel": 1,
+              "min": 0.0,
+              "max": 202.0,
+              "mean": 122.40982818603516,
+              "std": 26.124231100396717,
+              "zero_fraction": 0.000202178955078125,
+              "nan_or_inf_count": 0,
+              "q01": 57.0,
+              "q50": 123.0,
+              "q99": 182.0
+            },
+            {
+              "channel": 2,
+              "min": 0.0,
+              "max": 255.0,
+              "mean": 138.92545318603516,
+              "std": 45.41977003433895,
+              "zero_fraction": 0.002803802490234375,
+              "nan_or_inf_count": 0,
+              "q01": 51.0,
+              "q50": 138.0,
+              "q99": 254.0
+            }
+          ]
+        },
+        {
+          "file": "images/all_images/India_774689.png",
+          "width": 512,
+          "height": 512,
+          "format": "PNG",
+          "mode": "RGB",
+          "shape": [
+            512,
+            512,
+            3
+          ],
+          "dtype": "uint8",
+          "channels": [
+            {
+              "channel": 0,
+              "min": 0.0,
+              "max": 244.0,
+              "mean": 146.3532829284668,
+              "std": 36.147558494139666,
+              "zero_fraction": 0.0042724609375,
+              "nan_or_inf_count": 0,
+              "q01": 20.0,
+              "q50": 150.0,
+              "q99": 221.0
+            },
+            {
+              "channel": 1,
+              "min": 0.0,
+              "max": 202.0,
+              "mean": 103.17410278320312,
+              "std": 32.47276209102777,
+              "zero_fraction": 0.009815216064453125,
+              "nan_or_inf_count": 0,
+              "q01": 1.0,
+              "q50": 107.0,
+              "q99": 165.0
+            },
+            {
+              "channel": 2,
+              "min": 0.0,
+              "max": 255.0,
+              "mean": 144.0135726928711,
+              "std": 42.02314373631725,
+              "zero_fraction": 0.0037689208984375,
+              "nan_or_inf_count": 0,
+              "q01": 51.0,
+              "q50": 142.0,
+              "q99": 255.0
+            }
+          ]
+        },
+        {
+          "file": "images/all_images/Mekong_774566.png",
+          "width": 512,
+          "height": 512,
+          "format": "PNG",
+          "mode": "RGB",
+          "shape": [
+            512,
+            512,
+            3
+          ],
+          "dtype": "uint8",
+          "channels": [
+            {
+              "channel": 0,
+              "min": 0.0,
+              "max": 244.0,
+              "mean": 103.27138137817383,
+              "std": 64.90828991912338,
+              "zero_fraction": 0.08980560302734375,
+              "nan_or_inf_count": 0,
+              "q01": 0.0,
+              "q50": 130.0,
+              "q99": 197.0
+            },
+            {
+              "channel": 1,
+              "min": 0.0,
+              "max": 202.0,
+              "mean": 67.62540817260742,
+              "std": 50.985371200974704,
+              "zero_fraction": 0.21653366088867188,
+              "nan_or_inf_count": 0,
+              "q01": 0.0,
+              "q50": 80.0,
+              "q99": 150.0
+            },
+            {
+              "channel": 2,
+              "min": 51.0,
+              "max": 255.0,
+              "mean": 157.34836959838867,
+              "std": 41.64266166212563,
+              "zero_fraction": 0.0,
+              "nan_or_inf_count": 0,
+              "q01": 70.0,
+              "q50": 156.0,
+              "q99": 255.0
+            }
+          ]
+        },
+        {
+          "file": "images/all_images/Pakistan_667363.png",
+          "width": 512,
+          "height": 512,
+          "format": "PNG",
+          "mode": "RGB",
+          "shape": [
+            512,
+            512,
+            3
+          ],
+          "dtype": "uint8",
+          "channels": [
+            {
+              "channel": 0,
+              "min": 0.0,
+              "max": 244.0,
+              "mean": 152.09136199951172,
+              "std": 39.23165794842867,
+              "zero_fraction": 0.0004119873046875,
+              "nan_or_inf_count": 0,
+              "q01": 42.0,
+              "q50": 157.0,
+              "q99": 227.0
+            },
+            {
+              "channel": 1,
+              "min": 0.0,
+              "max": 195.0,
+              "mean": 94.50065231323242,
+              "std": 34.441043616800165,
+              "zero_fraction": 0.02057647705078125,
+              "nan_or_inf_count": 0,
+              "q01": 0.0,
+              "q50": 101.0,
+              "q99": 153.0
+            },
+            {
+              "channel": 2,
+              "min": 51.0,
+              "max": 255.0,
+              "mean": 127.94666290283203,
+              "std": 42.812958172904914,
+              "zero_fraction": 0.0,
+              "nan_or_inf_count": 0,
+              "q01": 51.0,
+              "q50": 127.0,
+              "q99": 235.0
+            }
+          ]
+        },
+        {
+          "file": "images/all_images/Paraguay_339807.png",
+          "width": 512,
+          "height": 512,
+          "format": "PNG",
+          "mode": "RGB",
+          "shape": [
+            512,
+            512,
+            3
+          ],
+          "dtype": "uint8",
+          "channels": [
+            {
+              "channel": 0,
+              "min": 0.0,
+              "max": 238.0,
+              "mean": 119.41113662719727,
+              "std": 59.79489294104679,
+              "zero_fraction": 0.1003570556640625,
+              "nan_or_inf_count": 0,
+              "q01": 0.0,
+              "q50": 141.0,
+              "q99": 197.0
+            },
+            {
+              "channel": 1,
+              "min": 0.0,
+              "max": 182.0,
+              "mean": 88.23376083374023,
+              "std": 45.754659295378154,
+              "zero_fraction": 0.11417770385742188,
+              "nan_or_inf_count": 0,
+              "q01": 0.0,
+              "q50": 104.0,
+              "q99": 151.0
+            },
+            {
+              "channel": 2,
+              "min": 51.0,
+              "max": 255.0,
+              "mean": 160.88186645507812,
+              "std": 41.61937144674117,
+              "zero_fraction": 0.0,
+              "nan_or_inf_count": 0,
+              "q01": 73.0,
+              "q50": 159.0,
+              "q99": 255.0
+            }
+          ]
+        },
+        {
+          "file": "images/all_images/Somalia_167787.png",
+          "width": 512,
+          "height": 512,
+          "format": "PNG",
+          "mode": "RGB",
+          "shape": [
+            512,
+            512,
+            3
+          ],
+          "dtype": "uint8",
+          "channels": [
+            {
+              "channel": 0,
+              "min": 0.0,
+              "max": 244.0,
+              "mean": 94.99160385131836,
+              "std": 28.28592500908672,
+              "zero_fraction": 0.002651214599609375,
+              "nan_or_inf_count": 0,
+              "q01": 23.0,
+              "q50": 95.0,
+              "q99": 161.0
+            },
+            {
+              "channel": 1,
+              "min": 0.0,
+              "max": 185.0,
+              "mean": 62.7696647644043,
+              "std": 32.74065569455459,
+              "zero_fraction": 0.04315185546875,
+              "nan_or_inf_count": 0,
+              "q01": 0.0,
+              "q50": 63.0,
+              "q99": 138.0
+            },
+            {
+              "channel": 2,
+              "min": 51.0,
+              "max": 255.0,
+              "mean": 173.1375732421875,
+              "std": 32.18331535668989,
+              "zero_fraction": 0.0,
+              "nan_or_inf_count": 0,
+              "q01": 105.0,
+              "q50": 171.0,
+              "q99": 255.0
+            }
+          ]
+        },
+        {
+          "file": "images/all_images/Spain_716716.png",
+          "width": 512,
+          "height": 512,
+          "format": "PNG",
+          "mode": "RGB",
+          "shape": [
+            512,
+            512,
+            3
+          ],
+          "dtype": "uint8",
+          "channels": [
+            {
+              "channel": 0,
+              "min": 0.0,
+              "max": 244.0,
+              "mean": 129.43775177001953,
+              "std": 29.207285428990495,
+              "zero_fraction": 0.00128173828125,
+              "nan_or_inf_count": 0,
+              "q01": 51.0,
+              "q50": 131.0,
+              "q99": 203.0
+            },
+            {
+              "channel": 1,
+              "min": 0.0,
+              "max": 202.0,
+              "mean": 91.10079956054688,
+              "std": 27.258265543452378,
+              "zero_fraction": 0.009918212890625,
+              "nan_or_inf_count": 0,
+              "q01": 1.0,
+              "q50": 94.0,
+              "q99": 146.0
+            },
+            {
+              "channel": 2,
+              "min": 51.0,
+              "max": 255.0,
+              "mean": 156.8121223449707,
+              "std": 35.356810720453076,
+              "zero_fraction": 0.0,
+              "nan_or_inf_count": 0,
+              "q01": 67.0,
+              "q50": 156.0,
+              "q99": 249.0
+            }
+          ]
+        },
+        {
+          "file": "images/all_images/Sri-Lanka_649970.png",
+          "width": 512,
+          "height": 512,
+          "format": "PNG",
+          "mode": "RGB",
+          "shape": [
+            512,
+            512,
+            3
+          ],
+          "dtype": "uint8",
+          "channels": [
+            {
+              "channel": 0,
+              "min": 0.0,
+              "max": 244.0,
+              "mean": 152.47085571289062,
+              "std": 29.605229945272878,
+              "zero_fraction": 4.57763671875e-05,
+              "nan_or_inf_count": 0,
+              "q01": 66.0,
+              "q50": 155.0,
+              "q99": 213.0
+            },
+            {
+              "channel": 1,
+              "min": 0.0,
+              "max": 202.0,
+              "mean": 109.97598266601562,
+              "std": 28.6182873971537,
+              "zero_fraction": 0.001678466796875,
+              "nan_or_inf_count": 0,
+              "q01": 26.0,
+              "q50": 115.0,
+              "q99": 159.0
+            },
+            {
+              "channel": 2,
+              "min": 51.0,
+              "max": 255.0,
+              "mean": 142.94170761108398,
+              "std": 39.74959473956373,
+              "zero_fraction": 0.0,
+              "nan_or_inf_count": 0,
+              "q01": 54.0,
+              "q50": 141.0,
+              "q99": 248.0
+            }
+          ]
+        },
+        {
+          "file": "images/all_images/USA_354981.png",
+          "width": 512,
+          "height": 512,
+          "format": "PNG",
+          "mode": "RGB",
+          "shape": [
+            512,
+            512,
+            3
+          ],
+          "dtype": "uint8",
+          "channels": [
+            {
+              "channel": 0,
+              "min": 0.0,
+              "max": 244.0,
+              "mean": 123.4387321472168,
+              "std": 32.40859856048256,
+              "zero_fraction": 0.000514984130859375,
+              "nan_or_inf_count": 0,
+              "q01": 43.0,
+              "q50": 125.0,
+              "q99": 196.0
+            },
+            {
+              "channel": 1,
+              "min": 0.0,
+              "max": 202.0,
+              "mean": 95.53319549560547,
+              "std": 26.00971811554644,
+              "zero_fraction": 0.003498077392578125,
+              "nan_or_inf_count": 0,
+              "q01": 21.0,
+              "q50": 98.0,
+              "q99": 147.0
+            },
+            {
+              "channel": 2,
+              "min": 51.0,
+              "max": 255.0,
+              "mean": 169.31465530395508,
+              "std": 38.69249364801972,
+              "zero_fraction": 0.0,
+              "nan_or_inf_count": 0,
+              "q01": 76.0,
+              "q50": 169.0,
+              "q99": 255.0
+            }
+          ]
+        },
+        {
+          "file": "images/all_images/USA_994009.png",
+          "width": 512,
+          "height": 512,
+          "format": "PNG",
+          "mode": "RGB",
+          "shape": [
+            512,
+            512,
+            3
+          ],
+          "dtype": "uint8",
+          "channels": [
+            {
+              "channel": 0,
+              "min": 0.0,
+              "max": 244.0,
+              "mean": 122.09500885009766,
+              "std": 33.81332005602202,
+              "zero_fraction": 0.000415802001953125,
+              "nan_or_inf_count": 0,
+              "q01": 39.0,
+              "q50": 123.0,
+              "q99": 195.0
+            },
+            {
+              "channel": 1,
+              "min": 0.0,
+              "max": 202.0,
+              "mean": 95.37163543701172,
+              "std": 24.425277621895,
+              "zero_fraction": 0.00159454345703125,
+              "nan_or_inf_count": 0,
+              "q01": 31.0,
+              "q50": 96.0,
+              "q99": 147.0
+            },
+            {
+              "channel": 2,
+              "min": 51.0,
+              "max": 255.0,
+              "mean": 170.4253158569336,
+              "std": 39.41245785774023,
+              "zero_fraction": 0.0,
+              "nan_or_inf_count": 0,
+              "q01": 77.0,
+              "q50": 170.0,
+              "q99": 255.0
+            }
+          ]
+        }
+      ],
+      "mask": [
+        {
+          "file": "masks/all_masks/Bolivia_103757.png",
+          "width": 512,
+          "height": 512,
+          "format": "PNG",
+          "mode": "L",
+          "shape": [
+            512,
+            512
+          ],
+          "dtype": "uint8",
+          "channels": [
+            {
+              "channel": 0,
+              "min": 0.0,
+              "max": 255.0,
+              "mean": 34.39830780029297,
+              "std": 87.11099189856014,
+              "zero_fraction": 0.8651046752929688,
+              "nan_or_inf_count": 0,
+              "q01": 0.0,
+              "q50": 0.0,
+              "q99": 255.0,
+              "unique_values": [
+                0.0,
+                255.0
+              ]
+            }
+          ]
+        },
+        {
+          "file": "masks/all_masks/Ghana_24858.png",
+          "width": 512,
+          "height": 512,
+          "format": "PNG",
+          "mode": "L",
+          "shape": [
+            512,
+            512
+          ],
+          "dtype": "uint8",
+          "channels": [
+            {
+              "channel": 0,
+              "min": 0.0,
+              "max": 255.0,
+              "mean": 0.4708099365234375,
+              "std": 10.946911519563285,
+              "zero_fraction": 0.9981536865234375,
+              "nan_or_inf_count": 0,
+              "q01": 0.0,
+              "q50": 0.0,
+              "q99": 0.0,
+              "unique_values": [
+                0.0,
+                255.0
+              ]
+            }
+          ]
+        },
+        {
+          "file": "masks/all_masks/India_177319.png",
+          "width": 512,
+          "height": 512,
+          "format": "PNG",
+          "mode": "L",
+          "shape": [
+            512,
+            512
+          ],
+          "dtype": "uint8",
+          "channels": [
+            {
+              "channel": 0,
+              "min": 0.0,
+              "max": 255.0,
+              "mean": 1.5515327453613281,
+              "std": 19.830118411325994,
+              "zero_fraction": 0.9939155578613281,
+              "nan_or_inf_count": 0,
+              "q01": 0.0,
+              "q50": 0.0,
+              "q99": 0.0,
+              "unique_values": [
+                0.0,
+                255.0
+              ]
+            }
+          ]
+        },
+        {
+          "file": "masks/all_masks/India_774689.png",
+          "width": 512,
+          "height": 512,
+          "format": "PNG",
+          "mode": "L",
+          "shape": [
+            512,
+            512
+          ],
+          "dtype": "uint8",
+          "channels": [
+            {
+              "channel": 0,
+              "min": 0.0,
+              "max": 255.0,
+              "mean": 18.34115982055664,
+              "std": 65.88321190317562,
+              "zero_fraction": 0.9280738830566406,
+              "nan_or_inf_count": 0,
+              "q01": 0.0,
+              "q50": 0.0,
+              "q99": 255.0,
+              "unique_values": [
+                0.0,
+                255.0
+              ]
+            }
+          ]
+        },
+        {
+          "file": "masks/all_masks/Mekong_774566.png",
+          "width": 512,
+          "height": 512,
+          "format": "PNG",
+          "mode": "L",
+          "shape": [
+            512,
+            512
+          ],
+          "dtype": "uint8",
+          "channels": [
+            {
+              "channel": 0,
+              "min": 0.0,
+              "max": 255.0,
+              "mean": 74.94340896606445,
+              "std": 116.16391323854255,
+              "zero_fraction": 0.7061042785644531,
+              "nan_or_inf_count": 0,
+              "q01": 0.0,
+              "q50": 0.0,
+              "q99": 255.0,
+              "unique_values": [
+                0.0,
+                255.0
+              ]
+            }
+          ]
+        },
+        {
+          "file": "masks/all_masks/Pakistan_667363.png",
+          "width": 512,
+          "height": 512,
+          "format": "PNG",
+          "mode": "L",
+          "shape": [
+            512,
+            512
+          ],
+          "dtype": "uint8",
+          "channels": [
+            {
+              "channel": 0,
+              "min": 0.0,
+              "max": 255.0,
+              "mean": 1.1857795715332031,
+              "std": 17.348421183171144,
+              "zero_fraction": 0.9953498840332031,
+              "nan_or_inf_count": 0,
+              "q01": 0.0,
+              "q50": 0.0,
+              "q99": 0.0,
+              "unique_values": [
+                0.0,
+                255.0
+              ]
+            }
+          ]
+        },
+        {
+          "file": "masks/all_masks/Paraguay_339807.png",
+          "width": 512,
+          "height": 512,
+          "format": "PNG",
+          "mode": "L",
+          "shape": [
+            512,
+            512
+          ],
+          "dtype": "uint8",
+          "channels": [
+            {
+              "channel": 0,
+              "min": 0.0,
+              "max": 255.0,
+              "mean": 56.46120071411133,
+              "std": 105.8760548755913,
+              "zero_fraction": 0.7785835266113281,
+              "nan_or_inf_count": 0,
+              "q01": 0.0,
+              "q50": 0.0,
+              "q99": 255.0,
+              "unique_values": [
+                0.0,
+                255.0
+              ]
+            }
+          ]
+        },
+        {
+          "file": "masks/all_masks/Somalia_167787.png",
+          "width": 512,
+          "height": 512,
+          "format": "PNG",
+          "mode": "L",
+          "shape": [
+            512,
+            512
+          ],
+          "dtype": "uint8",
+          "channels": [
+            {
+              "channel": 0,
+              "min": 0.0,
+              "max": 255.0,
+              "mean": 0.21886825561523438,
+              "std": 7.467496358791794,
+              "zero_fraction": 0.9991416931152344,
+              "nan_or_inf_count": 0,
+              "q01": 0.0,
+              "q50": 0.0,
+              "q99": 0.0,
+              "unique_values": [
+                0.0,
+                255.0
+              ]
+            }
+          ]
+        },
+        {
+          "file": "masks/all_masks/Spain_716716.png",
+          "width": 512,
+          "height": 512,
+          "format": "PNG",
+          "mode": "L",
+          "shape": [
+            512,
+            512
+          ],
+          "dtype": "uint8",
+          "channels": [
+            {
+              "channel": 0,
+              "min": 0.0,
+              "max": 255.0,
+              "mean": 2.5719451904296875,
+              "std": 25.48001415810038,
+              "zero_fraction": 0.9899139404296875,
+              "nan_or_inf_count": 0,
+              "q01": 0.0,
+              "q50": 0.0,
+              "q99": 255.0,
+              "unique_values": [
+                0.0,
+                255.0
+              ]
+            }
+          ]
+        },
+        {
+          "file": "masks/all_masks/Sri-Lanka_649970.png",
+          "width": 512,
+          "height": 512,
+          "format": "PNG",
+          "mode": "L",
+          "shape": [
+            512,
+            512
+          ],
+          "dtype": "uint8",
+          "channels": [
+            {
+              "channel": 0,
+              "min": 0.0,
+              "max": 255.0,
+              "mean": 16.870365142822266,
+              "std": 63.3824415068363,
+              "zero_fraction": 0.9338417053222656,
+              "nan_or_inf_count": 0,
+              "q01": 0.0,
+              "q50": 0.0,
+              "q99": 255.0,
+              "unique_values": [
+                0.0,
+                255.0
+              ]
+            }
+          ]
+        },
+        {
+          "file": "masks/all_masks/USA_354981.png",
+          "width": 512,
+          "height": 512,
+          "format": "PNG",
+          "mode": "L",
+          "shape": [
+            512,
+            512
+          ],
+          "dtype": "uint8",
+          "channels": [
+            {
+              "channel": 0,
+              "min": 0.0,
+              "max": 255.0,
+              "mean": 1.6770172119140625,
+              "std": 20.611331890710748,
+              "zero_fraction": 0.9934234619140625,
+              "nan_or_inf_count": 0,
+              "q01": 0.0,
+              "q50": 0.0,
+              "q99": 0.0,
+              "unique_values": [
+                0.0,
+                255.0
+              ]
+            }
+          ]
+        },
+        {
+          "file": "masks/all_masks/USA_994009.png",
+          "width": 512,
+          "height": 512,
+          "format": "PNG",
+          "mode": "L",
+          "shape": [
+            512,
+            512
+          ],
+          "dtype": "uint8",
+          "channels": [
+            {
+              "channel": 0,
+              "min": 0.0,
+              "max": 255.0,
+              "mean": 1.8453025817871094,
+              "std": 21.61358407893894,
+              "zero_fraction": 0.9927635192871094,
+              "nan_or_inf_count": 0,
+              "q01": 0.0,
+              "q50": 0.0,
+              "q99": 0.0,
+              "unique_values": [
+                0.0,
+                255.0
+              ]
+            }
+          ]
+        }
+      ],
+      "vv": [],
+      "vh": [],
+      "other_image": []
+    },
+    "paired_samples": 446,
+    "unpaired_images": [],
+    "unpaired_masks": [],
+    "regions": {
+      "Bolivia": 15,
+      "Ghana": 53,
+      "India": 68,
+      "Mekong": 30,
+      "Nigeria": 18,
+      "Pakistan": 28,
+      "Paraguay": 67,
+      "Somalia": 26,
+      "Spain": 30,
+      "Sri-Lanka": 42,
+      "USA": 69
+    },
+    "mask_stats": [
+      {
+        "sample": "Bolivia_103757",
+        "original_mode": "L",
+        "pixel_values": {
+          "0": 226782,
+          "255": 35362
+        },
+        "flood_fraction_255": 0.13489532470703125,
+        "non_0_255_count": 0
+      },
+      {
+        "sample": "Ghana_24858",
+        "original_mode": "L",
+        "pixel_values": {
+          "0": 261660,
+          "255": 484
+        },
+        "flood_fraction_255": 0.0018463134765625,
+        "non_0_255_count": 0
+      },
+      {
+        "sample": "India_177319",
+        "original_mode": "L",
+        "pixel_values": {
+          "0": 260549,
+          "255": 1595
+        },
+        "flood_fraction_255": 0.006084442138671875,
+        "non_0_255_count": 0
+      },
+      {
+        "sample": "India_774689",
+        "original_mode": "L",
+        "pixel_values": {
+          "0": 243289,
+          "255": 18855
+        },
+        "flood_fraction_255": 0.07192611694335938,
+        "non_0_255_count": 0
+      },
+      {
+        "sample": "Mekong_774566",
+        "original_mode": "L",
+        "pixel_values": {
+          "0": 185101,
+          "255": 77043
+        },
+        "flood_fraction_255": 0.2938957214355469,
+        "non_0_255_count": 0
+      },
+      {
+        "sample": "Pakistan_667363",
+        "original_mode": "L",
+        "pixel_values": {
+          "0": 260925,
+          "255": 1219
+        },
+        "flood_fraction_255": 0.004650115966796875,
+        "non_0_255_count": 0
+      },
+      {
+        "sample": "Paraguay_339807",
+        "original_mode": "L",
+        "pixel_values": {
+          "0": 204101,
+          "255": 58043
+        },
+        "flood_fraction_255": 0.22141647338867188,
+        "non_0_255_count": 0
+      },
+      {
+        "sample": "Somalia_167787",
+        "original_mode": "L",
+        "pixel_values": {
+          "0": 261919,
+          "255": 225
+        },
+        "flood_fraction_255": 0.000858306884765625,
+        "non_0_255_count": 0
+      },
+      {
+        "sample": "Spain_716716",
+        "original_mode": "L",
+        "pixel_values": {
+          "0": 259500,
+          "255": 2644
+        },
+        "flood_fraction_255": 0.0100860595703125,
+        "non_0_255_count": 0
+      },
+      {
+        "sample": "Sri-Lanka_649970",
+        "original_mode": "L",
+        "pixel_values": {
+          "0": 244801,
+          "255": 17343
+        },
+        "flood_fraction_255": 0.06615829467773438,
+        "non_0_255_count": 0
+      },
+      {
+        "sample": "USA_354981",
+        "original_mode": "L",
+        "pixel_values": {
+          "0": 260420,
+          "255": 1724
+        },
+        "flood_fraction_255": 0.0065765380859375,
+        "non_0_255_count": 0
+      },
+      {
+        "sample": "USA_994009",
+        "original_mode": "L",
+        "pixel_values": {
+          "0": 260247,
+          "255": 1897
+        },
+        "flood_fraction_255": 0.007236480712890625,
+        "non_0_255_count": 0
+      }
+    ],
+    "sample_pairs": [
+      "Bolivia_103757",
+      "Bolivia_129334",
+      "Bolivia_195474",
+      "Bolivia_23014",
+      "Bolivia_233925",
+      "Bolivia_242570",
+      "Bolivia_290290",
+      "Bolivia_294583",
+      "Bolivia_312675",
+      "Bolivia_314919",
+      "Bolivia_360519",
+      "Bolivia_379434"
+    ]
+  },
+  "nepal": {
+    "status": "ok",
+    "path": "data\\UNOSAT_case_study.zip",
+    "size_bytes": 422755121,
+    "total_files": 4152,
+    "categories": {
+      "other_image": 6,
+      "vh": 2073,
+      "vv": 2073
+    },
+    "top_level_names": [
+      "baseline_maps",
+      "tiles_VH",
+      "tiles_VV"
+    ],
+    "metadata_files": [],
+    "metadata_truncated": 0,
+    "sample_records": {
+      "training_image": [],
+      "mask": [],
+      "vv": [
+        {
+          "file": "tiles_VV/tile_10_0.png",
+          "width": 512,
+          "height": 512,
+          "format": "PNG",
+          "mode": "L",
+          "shape": [
+            512,
+            512
+          ],
+          "dtype": "uint8",
+          "channels": [
+            {
+              "channel": 0,
+              "min": 255.0,
+              "max": 255.0,
+              "mean": 255.0,
+              "std": 0.0,
+              "zero_fraction": 0.0,
+              "nan_or_inf_count": 0,
+              "q01": 255.0,
+              "q50": 255.0,
+              "q99": 255.0,
+              "unique_values": [
+                255.0
+              ]
+            }
+          ]
+        },
+        {
+          "file": "tiles_VV/tile_14_2.png",
+          "width": 512,
+          "height": 512,
+          "format": "PNG",
+          "mode": "L",
+          "shape": [
+            512,
+            512
+          ],
+          "dtype": "uint8",
+          "channels": [
+            {
+              "channel": 0,
+              "min": 255.0,
+              "max": 255.0,
+              "mean": 255.0,
+              "std": 0.0,
+              "zero_fraction": 0.0,
+              "nan_or_inf_count": 0,
+              "q01": 255.0,
+              "q50": 255.0,
+              "q99": 255.0,
+              "unique_values": [
+                255.0
+              ]
+            }
+          ]
+        },
+        {
+          "file": "tiles_VV/tile_17_38.png",
+          "width": 512,
+          "height": 512,
+          "format": "PNG",
+          "mode": "L",
+          "shape": [
+            512,
+            512
+          ],
+          "dtype": "uint8",
+          "channels": [
+            {
+              "channel": 0,
+              "min": 0.0,
+              "max": 255.0,
+              "mean": 1.0082550048828125,
+              "std": 12.319940034573234,
+              "zero_fraction": 0.9870071411132812,
+              "nan_or_inf_count": 0,
+              "q01": 0.0,
+              "q50": 0.0,
+              "q99": 16.0
+            }
+          ]
+        },
+        {
+          "file": "tiles_VV/tile_20_43.png",
+          "width": 512,
+          "height": 512,
+          "format": "PNG",
+          "mode": "L",
+          "shape": [
+            512,
+            512
+          ],
+          "dtype": "uint8",
+          "channels": [
+            {
+              "channel": 0,
+              "min": 0.0,
+              "max": 255.0,
+              "mean": 16.309940338134766,
+              "std": 57.154334039876,
+              "zero_fraction": 0.8981361389160156,
+              "nan_or_inf_count": 0,
+              "q01": 0.0,
+              "q50": 0.0,
+              "q99": 255.0
+            }
+          ]
+        },
+        {
+          "file": "tiles_VV/tile_23_48.png",
+          "width": 512,
+          "height": 512,
+          "format": "PNG",
+          "mode": "L",
+          "shape": [
+            512,
+            512
+          ],
+          "dtype": "uint8",
+          "channels": [
+            {
+              "channel": 0,
+              "min": 0.0,
+              "max": 255.0,
+              "mean": 53.47757339477539,
+              "std": 93.06732317216992,
+              "zero_fraction": 0.6655502319335938,
+              "nan_or_inf_count": 0,
+              "q01": 0.0,
+              "q50": 0.0,
+              "q99": 255.0
+            }
+          ]
+        },
+        {
+          "file": "tiles_VV/tile_26_52.png",
+          "width": 512,
+          "height": 512,
+          "format": "PNG",
+          "mode": "L",
+          "shape": [
+            512,
+            512
+          ],
+          "dtype": "uint8",
+          "channels": [
+            {
+              "channel": 0,
+              "min": 0.0,
+              "max": 255.0,
+              "mean": 34.805564880371094,
+              "std": 77.59773578196514,
+              "zero_fraction": 0.7625007629394531,
+              "nan_or_inf_count": 0,
+              "q01": 0.0,
+              "q50": 0.0,
+              "q99": 255.0
+            }
+          ]
+        },
+        {
+          "file": "tiles_VV/tile_29_58.png",
+          "width": 512,
+          "height": 512,
+          "format": "PNG",
+          "mode": "L",
+          "shape": [
+            512,
+            512
+          ],
+          "dtype": "uint8",
+          "channels": [
+            {
+              "channel": 0,
+              "min": 255.0,
+              "max": 255.0,
+              "mean": 255.0,
+              "std": 0.0,
+              "zero_fraction": 0.0,
+              "nan_or_inf_count": 0,
+              "q01": 255.0,
+              "q50": 255.0,
+              "q99": 255.0,
+              "unique_values": [
+                255.0
+              ]
+            }
+          ]
+        },
+        {
+          "file": "tiles_VV/tile_32_8.png",
+          "width": 512,
+          "height": 512,
+          "format": "PNG",
+          "mode": "L",
+          "shape": [
+            512,
+            512
+          ],
+          "dtype": "uint8",
+          "channels": [
+            {
+              "channel": 0,
+              "min": 0.0,
+              "max": 255.0,
+              "mean": 60.798194885253906,
+              "std": 97.7821934773582,
+              "zero_fraction": 0.610687255859375,
+              "nan_or_inf_count": 0,
+              "q01": 0.0,
+              "q50": 0.0,
+              "q99": 255.0
+            }
+          ]
+        },
+        {
+          "file": "tiles_VV/tile_36_11.png",
+          "width": 512,
+          "height": 512,
+          "format": "PNG",
+          "mode": "L",
+          "shape": [
+            512,
+            512
+          ],
+          "dtype": "uint8",
+          "channels": [
+            {
+              "channel": 0,
+              "min": 255.0,
+              "max": 255.0,
+              "mean": 255.0,
+              "std": 0.0,
+              "zero_fraction": 0.0,
+              "nan_or_inf_count": 0,
+              "q01": 255.0,
+              "q50": 255.0,
+              "q99": 255.0,
+              "unique_values": [
+                255.0
+              ]
+            }
+          ]
+        },
+        {
+          "file": "tiles_VV/tile_39_17.png",
+          "width": 512,
+          "height": 512,
+          "format": "PNG",
+          "mode": "L",
+          "shape": [
+            512,
+            512
+          ],
+          "dtype": "uint8",
+          "channels": [
+            {
+              "channel": 0,
+              "min": 255.0,
+              "max": 255.0,
+              "mean": 255.0,
+              "std": 0.0,
+              "zero_fraction": 0.0,
+              "nan_or_inf_count": 0,
+              "q01": 255.0,
+              "q50": 255.0,
+              "q99": 255.0,
+              "unique_values": [
+                255.0
+              ]
+            }
+          ]
+        },
+        {
+          "file": "tiles_VV/tile_4_12.png",
+          "width": 512,
+          "height": 512,
+          "format": "PNG",
+          "mode": "L",
+          "shape": [
+            512,
+            512
+          ],
+          "dtype": "uint8",
+          "channels": [
+            {
+              "channel": 0,
+              "min": 0.0,
+              "max": 255.0,
+              "mean": 45.31538391113281,
+              "std": 90.21279472819371,
+              "zero_fraction": 0.7397804260253906,
+              "nan_or_inf_count": 0,
+              "q01": 0.0,
+              "q50": 0.0,
+              "q99": 255.0
+            }
+          ]
+        },
+        {
+          "file": "tiles_VV/tile_9_9.png",
+          "width": 512,
+          "height": 512,
+          "format": "PNG",
+          "mode": "L",
+          "shape": [
+            512,
+            512
+          ],
+          "dtype": "uint8",
+          "channels": [
+            {
+              "channel": 0,
+              "min": 0.0,
+              "max": 255.0,
+              "mean": 6.0562744140625,
+              "std": 31.65687491670003,
+              "zero_fraction": 0.9376068115234375,
+              "nan_or_inf_count": 0,
+              "q01": 0.0,
+              "q50": 0.0,
+              "q99": 220.0
+            }
+          ]
+        }
+      ],
+      "vh": [
+        {
+          "file": "tiles_VH/tile_10_0.png",
+          "width": 512,
+          "height": 512,
+          "format": "PNG",
+          "mode": "L",
+          "shape": [
+            512,
+            512
+          ],
+          "dtype": "uint8",
+          "channels": [
+            {
+              "channel": 0,
+              "min": 0.0,
+              "max": 0.0,
+              "mean": 0.0,
+              "std": 0.0,
+              "zero_fraction": 1.0,
+              "nan_or_inf_count": 0,
+              "q01": 0.0,
+              "q50": 0.0,
+              "q99": 0.0,
+              "unique_values": [
+                0.0
+              ]
+            }
+          ]
+        },
+        {
+          "file": "tiles_VH/tile_14_2.png",
+          "width": 512,
+          "height": 512,
+          "format": "PNG",
+          "mode": "L",
+          "shape": [
+            512,
+            512
+          ],
+          "dtype": "uint8",
+          "channels": [
+            {
+              "channel": 0,
+              "min": 0.0,
+              "max": 0.0,
+              "mean": 0.0,
+              "std": 0.0,
+              "zero_fraction": 1.0,
+              "nan_or_inf_count": 0,
+              "q01": 0.0,
+              "q50": 0.0,
+              "q99": 0.0,
+              "unique_values": [
+                0.0
+              ]
+            }
+          ]
+        },
+        {
+          "file": "tiles_VH/tile_17_38.png",
+          "width": 512,
+          "height": 512,
+          "format": "PNG",
+          "mode": "L",
+          "shape": [
+            512,
+            512
+          ],
+          "dtype": "uint8",
+          "channels": [
+            {
+              "channel": 0,
+              "min": 28.0,
+              "max": 255.0,
+              "mean": 135.0079345703125,
+              "std": 34.52210784974987,
+              "zero_fraction": 0.0,
+              "nan_or_inf_count": 0,
+              "q01": 66.0,
+              "q50": 132.0,
+              "q99": 229.0
+            }
+          ]
+        },
+        {
+          "file": "tiles_VH/tile_20_43.png",
+          "width": 512,
+          "height": 512,
+          "format": "PNG",
+          "mode": "L",
+          "shape": [
+            512,
+            512
+          ],
+          "dtype": "uint8",
+          "channels": [
+            {
+              "channel": 0,
+              "min": 14.0,
+              "max": 255.0,
+              "mean": 125.87852096557617,
+              "std": 43.323204336145004,
+              "zero_fraction": 0.0,
+              "nan_or_inf_count": 0,
+              "q01": 39.0,
+              "q50": 126.0,
+              "q99": 233.0
+            }
+          ]
+        },
+        {
+          "file": "tiles_VH/tile_23_48.png",
+          "width": 512,
+          "height": 512,
+          "format": "PNG",
+          "mode": "L",
+          "shape": [
+            512,
+            512
+          ],
+          "dtype": "uint8",
+          "channels": [
+            {
+              "channel": 0,
+              "min": 13.0,
+              "max": 255.0,
+              "mean": 93.15742111206055,
+              "std": 39.284953533035335,
+              "zero_fraction": 0.0,
+              "nan_or_inf_count": 0,
+              "q01": 34.0,
+              "q50": 86.0,
+              "q99": 204.0
+            }
+          ]
+        },
+        {
+          "file": "tiles_VH/tile_26_52.png",
+          "width": 512,
+          "height": 512,
+          "format": "PNG",
+          "mode": "L",
+          "shape": [
+            512,
+            512
+          ],
+          "dtype": "uint8",
+          "channels": [
+            {
+              "channel": 0,
+              "min": 12.0,
+              "max": 255.0,
+              "mean": 108.30931854248047,
+              "std": 42.68754721047353,
+              "zero_fraction": 0.0,
+              "nan_or_inf_count": 0,
+              "q01": 38.0,
+              "q50": 103.0,
+              "q99": 222.0
+            }
+          ]
+        },
+        {
+          "file": "tiles_VH/tile_29_58.png",
+          "width": 512,
+          "height": 512,
+          "format": "PNG",
+          "mode": "L",
+          "shape": [
+            512,
+            512
+          ],
+          "dtype": "uint8",
+          "channels": [
+            {
+              "channel": 0,
+              "min": 0.0,
+              "max": 0.0,
+              "mean": 0.0,
+              "std": 0.0,
+              "zero_fraction": 1.0,
+              "nan_or_inf_count": 0,
+              "q01": 0.0,
+              "q50": 0.0,
+              "q99": 0.0,
+              "unique_values": [
+                0.0
+              ]
+            }
+          ]
+        },
+        {
+          "file": "tiles_VH/tile_32_8.png",
+          "width": 512,
+          "height": 512,
+          "format": "PNG",
+          "mode": "L",
+          "shape": [
+            512,
+            512
+          ],
+          "dtype": "uint8",
+          "channels": [
+            {
+              "channel": 0,
+              "min": 8.0,
+              "max": 255.0,
+              "mean": 71.23207092285156,
+              "std": 28.675854530894128,
+              "zero_fraction": 0.0,
+              "nan_or_inf_count": 0,
+              "q01": 19.0,
+              "q50": 70.0,
+              "q99": 146.0
+            }
+          ]
+        },
+        {
+          "file": "tiles_VH/tile_36_11.png",
+          "width": 512,
+          "height": 512,
+          "format": "PNG",
+          "mode": "L",
+          "shape": [
+            512,
+            512
+          ],
+          "dtype": "uint8",
+          "channels": [
+            {
+              "channel": 0,
+              "min": 0.0,
+              "max": 0.0,
+              "mean": 0.0,
+              "std": 0.0,
+              "zero_fraction": 1.0,
+              "nan_or_inf_count": 0,
+              "q01": 0.0,
+              "q50": 0.0,
+              "q99": 0.0,
+              "unique_values": [
+                0.0
+              ]
+            }
+          ]
+        },
+        {
+          "file": "tiles_VH/tile_39_17.png",
+          "width": 512,
+          "height": 512,
+          "format": "PNG",
+          "mode": "L",
+          "shape": [
+            512,
+            512
+          ],
+          "dtype": "uint8",
+          "channels": [
+            {
+              "channel": 0,
+              "min": 0.0,
+              "max": 0.0,
+              "mean": 0.0,
+              "std": 0.0,
+              "zero_fraction": 1.0,
+              "nan_or_inf_count": 0,
+              "q01": 0.0,
+              "q50": 0.0,
+              "q99": 0.0,
+              "unique_values": [
+                0.0
+              ]
+            }
+          ]
+        },
+        {
+          "file": "tiles_VH/tile_4_12.png",
+          "width": 512,
+          "height": 512,
+          "format": "PNG",
+          "mode": "L",
+          "shape": [
+            512,
+            512
+          ],
+          "dtype": "uint8",
+          "channels": [
+            {
+              "channel": 0,
+              "min": 2.0,
+              "max": 255.0,
+              "mean": 114.68783187866211,
+              "std": 57.81936995136711,
+              "zero_fraction": 0.0,
+              "nan_or_inf_count": 0,
+              "q01": 29.0,
+              "q50": 103.0,
+              "q99": 255.0
+            }
+          ]
+        },
+        {
+          "file": "tiles_VH/tile_9_9.png",
+          "width": 512,
+          "height": 512,
+          "format": "PNG",
+          "mode": "L",
+          "shape": [
+            512,
+            512
+          ],
+          "dtype": "uint8",
+          "channels": [
+            {
+              "channel": 0,
+              "min": 19.0,
+              "max": 255.0,
+              "mean": 110.54230880737305,
+              "std": 33.605468111653984,
+              "zero_fraction": 0.0,
+              "nan_or_inf_count": 0,
+              "q01": 49.0,
+              "q50": 107.0,
+              "q99": 225.0
+            }
+          ]
+        }
+      ],
+      "other_image": [
+        {
+          "file": "baseline_maps/analysis_extent.png",
+          "width": 10240,
+          "height": 10240,
+          "format": "PNG",
+          "mode": "L",
+          "shape": [
+            10240,
+            10240
+          ],
+          "dtype": "uint8",
+          "channels": [
+            {
+              "channel": 0,
+              "min": 0.0,
+              "max": 1.0,
+              "mean": 0.1735935115814209,
+              "std": 0.3787595600354557,
+              "zero_fraction": 0.8264064884185791,
+              "nan_or_inf_count": 0,
+              "q01": 0.0,
+              "q50": 0.0,
+              "q99": 1.0,
+              "unique_values": [
+                0.0,
+                1.0
+              ]
+            }
+          ]
+        },
+        {
+          "file": "baseline_maps/analysis_extent_sample.PNG",
+          "width": 1582,
+          "height": 762,
+          "format": "PNG",
+          "mode": "RGBA",
+          "shape": [
+            762,
+            1582,
+            4
+          ],
+          "dtype": "uint8",
+          "channels": [
+            {
+              "channel": 0,
+              "min": 0.0,
+              "max": 255.0,
+              "mean": 202.53094939460001,
+              "std": 51.17567393051069,
+              "zero_fraction": 4.977253949451009e-06,
+              "nan_or_inf_count": 0,
+              "q01": 118.0,
+              "q50": 226.0,
+              "q99": 246.0
+            },
+            {
+              "channel": 1,
+              "min": 0.0,
+              "max": 255.0,
+              "mean": 233.7857640582538,
+              "std": 18.24179384745347,
+              "zero_fraction": 4.977253949451009e-06,
+              "nan_or_inf_count": 0,
+              "q01": 167.0,
+              "q50": 239.0,
+              "q99": 247.0
+            },
+            {
+              "channel": 2,
+              "min": 0.0,
+              "max": 255.0,
+              "mean": 187.98947144881225,
+              "std": 63.36003254411294,
+              "zero_fraction": 4.977253949451009e-06,
+              "nan_or_inf_count": 0,
+              "q01": 82.0,
+              "q50": 220.0,
+              "q99": 242.0
+            },
+            {
+              "channel": 3,
+              "min": 255.0,
+              "max": 255.0,
+              "mean": 255.0,
+              "std": 0.0,
+              "zero_fraction": 0.0,
+              "nan_or_inf_count": 0,
+              "q01": 255.0,
+              "q50": 255.0,
+              "q99": 255.0,
+              "unique_values": [
+                255.0
+              ]
+            }
+          ]
+        },
+        {
+          "file": "baseline_maps/permanent_water.png",
+          "width": 10240,
+          "height": 10240,
+          "format": "PNG",
+          "mode": "L",
+          "shape": [
+            10240,
+            10240
+          ],
+          "dtype": "uint8",
+          "channels": [
+            {
+              "channel": 0,
+              "min": 0.0,
+              "max": 1.0,
+              "mean": 0.0005366897583007812,
+              "std": 0.02316034806310381,
+              "zero_fraction": 0.9994633102416992,
+              "nan_or_inf_count": 0,
+              "q01": 0.0,
+              "q50": 0.0,
+              "q99": 0.0,
+              "unique_values": [
+                0.0,
+                1.0
+              ]
+            }
+          ]
+        },
+        {
+          "file": "baseline_maps/permanent_water_sample.PNG",
+          "width": 1582,
+          "height": 762,
+          "format": "PNG",
+          "mode": "RGBA",
+          "shape": [
+            762,
+            1582,
+            4
+          ],
+          "dtype": "uint8",
+          "channels": [
+            {
+              "channel": 0,
+              "min": 0.0,
+              "max": 255.0,
+              "mean": 202.4621172906484,
+              "std": 51.33045336447523,
+              "zero_fraction": 4.977253949451009e-06,
+              "nan_or_inf_count": 0,
+              "q01": 118.0,
+              "q50": 226.0,
+              "q99": 246.0
+            },
+            {
+              "channel": 1,
+              "min": 0.0,
+              "max": 255.0,
+              "mean": 233.51707529921592,
+              "std": 19.273505969607086,
+              "zero_fraction": 4.977253949451009e-06,
+              "nan_or_inf_count": 0,
+              "q01": 164.0,
+              "q50": 239.0,
+              "q99": 247.0
+            },
+            {
+              "channel": 2,
+              "min": 0.0,
+              "max": 255.0,
+              "mean": 187.91205358179786,
+              "std": 63.51589172295887,
+              "zero_fraction": 4.977253949451009e-06,
+              "nan_or_inf_count": 0,
+              "q01": 82.0,
+              "q50": 220.0,
+              "q99": 242.0
+            },
+            {
+              "channel": 3,
+              "min": 255.0,
+              "max": 255.0,
+              "mean": 255.0,
+              "std": 0.0,
+              "zero_fraction": 0.0,
+              "nan_or_inf_count": 0,
+              "q01": 255.0,
+              "q50": 255.0,
+              "q99": 255.0,
+              "unique_values": [
+                255.0
+              ]
+            }
+          ]
+        },
+        {
+          "file": "baseline_maps/world_pop.png",
+          "width": 10240,
+          "height": 10240,
+          "format": "PNG",
+          "mode": "L",
+          "shape": [
+            10240,
+            10240
+          ],
+          "dtype": "uint8",
+          "channels": [
+            {
+              "channel": 0,
+              "min": 0.0,
+              "max": 239.0,
+              "mean": 0.9413310146331787,
+              "std": 4.703300502115104,
+              "zero_fraction": 0.8515407943725586,
+              "nan_or_inf_count": 0,
+              "q01": 0.0,
+              "q50": 0.0,
+              "q99": 13.0
+            }
+          ]
+        },
+        {
+          "file": "baseline_maps/world_pop_sample.PNG",
+          "width": 1582,
+          "height": 762,
+          "format": "PNG",
+          "mode": "RGBA",
+          "shape": [
+            762,
+            1582,
+            4
+          ],
+          "dtype": "uint8",
+          "channels": [
+            {
+              "channel": 0,
+              "min": 0.0,
+              "max": 255.0,
+              "mean": 177.31937628371674,
+              "std": 94.9629767916502,
+              "zero_fraction": 0.04049908584435795,
+              "nan_or_inf_count": 0,
+              "q01": 0.0,
+              "q50": 227.0,
+              "q99": 246.0
+            },
+            {
+              "channel": 1,
+              "min": 0.0,
+              "max": 255.0,
+              "mean": 179.19922288475001,
+              "std": 95.97816284174687,
+              "zero_fraction": 0.04049908584435795,
+              "nan_or_inf_count": 0,
+              "q01": 0.0,
+              "q50": 233.0,
+              "q99": 247.0
+            },
+            {
+              "channel": 2,
+              "min": 0.0,
+              "max": 255.0,
+              "mean": 171.5190728371343,
+              "std": 92.2358251562447,
+              "zero_fraction": 0.04049908584435795,
+              "nan_or_inf_count": 0,
+              "q01": 0.0,
+              "q50": 220.0,
+              "q99": 242.0
+            },
+            {
+              "channel": 3,
+              "min": 255.0,
+              "max": 255.0,
+              "mean": 255.0,
+              "std": 0.0,
+              "zero_fraction": 0.0,
+              "nan_or_inf_count": 0,
+              "q01": 255.0,
+              "q50": 255.0,
+              "q99": 255.0,
+              "unique_values": [
+                255.0
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "vv_vh_same_filename_pairs": 2073,
+    "vv_only_examples": [],
+    "vh_only_examples": [],
+    "tile_name_examples": [
+      "tile_10_0.png",
+      "tile_10_1.png",
+      "tile_10_10.png",
+      "tile_10_11.png",
+      "tile_10_12.png",
+      "tile_10_13.png",
+      "tile_10_14.png",
+      "tile_10_15.png",
+      "tile_10_16.png",
+      "tile_10_17.png",
+      "tile_10_18.png",
+      "tile_10_19.png"
+    ],
+    "tile_coordinate_extent": {
+      "min_y": 3,
+      "max_y": 41,
+      "min_x": 0,
+      "max_x": 60,
+      "coordinate_filename_matches": 2073
+    }
+  },
+  "splits": {
+    "status": "ok",
+    "path": "results\\splits.json",
+    "groups": {
+      "train": {
+        "samples": 292,
+        "regions": [
+          "Bolivia",
+          "Ghana",
+          "Nigeria",
+          "Pakistan",
+          "Paraguay",
+          "Sri-Lanka",
+          "USA"
+        ]
+      },
+      "val": {
+        "samples": 98,
+        "regions": [
+          "India",
+          "Spain"
+        ]
+      },
+      "test": {
+        "samples": 56,
+        "regions": [
+          "Mekong",
+          "Somalia"
+        ]
+      }
+    }
+  },
+  "source_note": "UNOSAT original notebook: RGB red=clip(VV,0,1), values red>0.7 set to 0; green=clip(VH,0,1); blue=clip(VV/VH,0,1); inference additionally normalizes and swaps RGB to BGR. Verify numerical handling of division by zero before implementation.",
+  "limitations": [
+    "Images are sampled, not all image pixels in the archive.",
+    "Archive metadata listing does not establish georeferencing.",
+    "RGB training PNG source and pixel preprocessing remain unverified."
+  ],
+  "warnings": [
+    "PIL convert(L) y y=(pixel == 255) pueden ocultar valores especiales; revisar el formato original.",
+    "El notebook UNOSAT usa compuesto R=VV, G=VH, B=VV/VH, con R>0.7 a cero; NO confirma la preparación de los PNG de entrenamiento.",
+    "No calcular superficies ni población impactada hasta confirmar georreferenciación y dimensiones de píxel."
+  ]
+}

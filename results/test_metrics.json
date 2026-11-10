@@ -1,0 +1,27 @@
+{
+  "global": {
+    "iou": 0.45682018722678724,
+    "dice": 0.6271469756283282,
+    "precision": 0.48997234726267824,
+    "recall": 0.8709939414800565,
+    "pixel_accuracy": 0.8540717533656507
+  },
+  "by_region": {
+    "Mekong": {
+      "iou": 0.7602890989645199,
+      "dice": 0.863822992952414,
+      "precision": 0.8214027901354605,
+      "recall": 0.9108632569525517,
+      "pixel_accuracy": 0.9372289021809848
+    },
+    "Somalia": {
+      "iou": 0.12519501028380495,
+      "dice": 0.22253033321259993,
+      "precision": 0.13322807540623385,
+      "recall": 0.6749399244764075,
+      "pixel_accuracy": 0.7581211970402599
+    }
+  },
+  "samples": 56,
+  "notes": "Pixel-level pooled metrics; excludes no-data special handling."
+}

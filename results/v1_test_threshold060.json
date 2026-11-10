@@ -1,0 +1,29 @@
+{
+  "checkpoint": "checkpoints/best_model.pt",
+  "threshold": 0.6,
+  "samples": 56,
+  "global": {
+    "iou": 0.484535590080113,
+    "dice": 0.6527773309280716,
+    "precision": 0.5323739251202653,
+    "recall": 0.8435594626423337,
+    "pixel_accuracy": 0.8735512324741885
+  },
+  "by_region": {
+    "Mekong": {
+      "iou": 0.7590895051951193,
+      "dice": 0.863048188228399,
+      "precision": 0.8357427162668042,
+      "recall": 0.8921981788691841,
+      "pixel_accuracy": 0.9381098429361932
+    },
+    "Somalia": {
+      "iou": 0.13364456421350607,
+      "dice": 0.23577860015802268,
+      "precision": 0.14645677588233583,
+      "recall": 0.604382652477331,
+      "pixel_accuracy": 0.7990605280949472
+    }
+  },
+  "notes": "Pooled pixels; ignores no-data semantics; test must not be used for tuning."
+}
