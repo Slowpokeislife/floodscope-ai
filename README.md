@@ -31,13 +31,19 @@ A computer-vision research project built around Sentinel-1-derived imagery. Floo
 
 Held-out test Dice for U-Net V2: Mekong **0.8751**, Somalia **0.2711**. For DeepLabV3+ V4: Mekong **0.8648**, Somalia **0.2934**. Regional performance is substantially heterogeneous.
 
-## Dashboard
+## Dashboard Preview
 
-The UI uses a warm-cream and electric-blue visual system with four research views: **Overview**, **Model Explorer**, **Geographic Evaluation**, and **Nepal — Domain Shift**.
+FloodScope AI includes an interactive Streamlit dashboard for
+exploring satellite flood segmentation, comparing deep learning
+architectures, and analyzing geographic generalization.
 
-![Dashboard screenshot](docs/screenshots/dashboard.png)
+### Overview
 
-*Add your own dashboard screenshot at `docs/screenshots/dashboard.png` before publishing; alternatively remove the image link.*
+![FloodScope AI Dashboard](docs/screenshots/dashboard-overview.png)
+
+### Model Explorer
+
+![FloodScope AI Model Explorer](docs/screenshots/dashboard-explorer.png)
 
 ## Quickstart (Windows / PowerShell)
 
