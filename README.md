@@ -1,4 +1,4 @@
-# FloodScope AI 🌊
+# FloodScope AI 
 
 **Satellite Flood Segmentation, Geographic Generalization & Domain Shift**
 
